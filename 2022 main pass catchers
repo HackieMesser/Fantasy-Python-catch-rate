@@ -1,0 +1,12 @@
+#catch rate for my main passcatchers
+
+players = [{'name': 'Chris Godwin', 'passes': 99, 'receptions' : 68 }, 
+           {'name' : 'Garrett Wilson', 'receptions' : 57, 'passes' : 95 }, 
+           {'name':'Pat Freiermuth', 'passes': 76, 'receptions' : 50} ]
+
+for c3 in players:
+  name= c3['name']
+  receptions = c3['receptions']
+  passes = c3['passes']
+  catch_rate = receptions/passes
+  print(f'{name} has a catchrate of {catch_rate}')
